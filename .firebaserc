@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "instagramwebappclone": {
+      "hosting": {
+        "instagram": [
+          "insta1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "instagramwebappclone"
+  }
+}
