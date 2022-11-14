@@ -1,0 +1,17 @@
+*{
+    width: 100%;
+}
+mobile-header{
+    top: 0;
+    height: 3rem;
+    position: fixed;
+}
+main{
+    padding: 3rem 0;
+    height: 100%;
+}
+mobile-footer{
+    bottom: 0;
+    height: 3rem;
+    position: fixed;
+}
