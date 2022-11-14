@@ -5,6 +5,7 @@ import{ ExploreComponent } from './pages/explore/explore.component'
 import { ReelsComponent } from './pages/reels/reels.component';
 import { InboxComponent } from './pages/inbox/inbox.component';
 import { DirectComponent } from './pages/direct/direct.component';
+import { UserComponent } from './pages/user/user.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path:'inbox',
     component:InboxComponent
+  },
+  {
+    path:':user',
+    component:UserComponent
   },
   
   {
