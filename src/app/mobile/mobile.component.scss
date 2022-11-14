@@ -3,11 +3,12 @@
 }
 mobile-header{
     top: 0;
-    height: 3rem;
+    height: 44px;
     position: fixed;
 }
 main{
-    padding: 3rem 0;
+    padding-top:44px;
+    padding-bottom: 3rem;
     height: 100%;
 }
 mobile-footer{
