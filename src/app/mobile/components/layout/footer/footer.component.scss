@@ -1,31 +1,19 @@
 nav{
+    height: 100%;
     width: 100%;
     display: flex;
     position: relative;
     flex-direction: row;
     box-sizing: border-box;
     justify-content: space-evenly;
-
+    border-top: 1px solid  rgba(142, 142, 142, 0.5);
+    
     button{
-        margin: 0;
-        padding: 0;
+        display: flex;
+        margin: auto;
         border: none;
         outline: none;
-        display: inline;
-        cursor: pointer;
-        text-align: inherit;
-        text-decoration: none;
-        box-sizing: border-box;
-        touch-action: manipulation;
         background-color: transparent;
-
-        img{
-            display: flex;
-            padding: 12px;
-            cursor: pointer;
-            box-sizing: border-box;
-            justify-content: center;
-        }
     }
 }
 
