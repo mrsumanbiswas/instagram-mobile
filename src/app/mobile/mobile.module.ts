@@ -5,16 +5,15 @@ import { MobileComponent } from './mobile.component';
 import { HeaderComponent } from "./components/layout/header/header.component";
 import { FooterComponent } from "./components/layout/footer/footer.component";
 
-
 @NgModule({
   declarations: [
     MobileComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule,
-    MobileRoutingModule
+    MobileRoutingModule,
   ]
 })
 export class MobileModule { }
