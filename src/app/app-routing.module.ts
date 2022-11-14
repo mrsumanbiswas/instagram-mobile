@@ -10,7 +10,7 @@ const routes: Routes = [
 },
 {
   path:'**',
-  redirectTo:'m',
+  redirectTo:'/m',
   pathMatch:'full',
 }
 ];
