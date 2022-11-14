@@ -45,12 +45,3 @@ Thumbs.db
 .firebase
 *-debug.log
 .runtimeconfig.json
-
-#environments
-environments
-environments/*
-src/environments/*
-src/environments/environment.prod.ts
-src/environments/environment.ts
-environment.prod.ts
-environment.ts
