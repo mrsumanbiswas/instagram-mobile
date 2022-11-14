@@ -4,6 +4,7 @@ nav {
     position: relative;
     flex-direction: row;
     box-sizing: border-box;
+    border-bottom: 1px solid  rgba(142, 142, 142, 0.5);
 
     button {
         margin: auto;
@@ -20,12 +21,6 @@ nav {
         touch-action: manipulation;
         background-color: transparent;
 
-        img {
-            display: flex;
-            cursor: pointer;
-            box-sizing: border-box;
-            justify-content: center;
-        }
     }
 }
 
