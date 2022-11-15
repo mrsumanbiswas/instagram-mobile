@@ -7,6 +7,67 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StoryComponent implements OnInit {
 
+  storys =[
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    {
+      url:"",
+      src:"/assets/icons/icon-128x128.png",
+    },
+    
+  ]
+
+
   constructor() { }
 
   ngOnInit(): void {
