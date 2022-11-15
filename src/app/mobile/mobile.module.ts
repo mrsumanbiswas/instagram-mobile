@@ -10,6 +10,12 @@ import { ExploreComponent } from './pages/explore/explore.component';
 import { HomeComponent } from './pages/home/home.component';
 import { InboxComponent } from './pages/inbox/inbox.component';
 import { ReelsComponent } from './pages/reels/reels.component';
+import { FeedComponent } from './components/feed/feed.component';
+import { FollowersComponent } from './components/followers/followers.component';
+import { FollowingComponent } from './components/following/following.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { SavedComponent } from './components/saved/saved.component';
+import { TaggedComponent } from './components/tagged/tagged.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +27,13 @@ import { ReelsComponent } from './pages/reels/reels.component';
     ExploreComponent,
     HomeComponent,
     InboxComponent,
-    ReelsComponent
+    ReelsComponent,
+    FeedComponent,
+    FollowersComponent,
+    FollowingComponent,
+    PostsComponent,
+    SavedComponent,
+    TaggedComponent
 
   ],
   imports: [
