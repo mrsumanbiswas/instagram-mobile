@@ -16,6 +16,8 @@ import { FollowingComponent } from './components/following/following.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { SavedComponent } from './components/saved/saved.component';
 import { TaggedComponent } from './components/tagged/tagged.component';
+import { StoryComponent } from './components/story/story.component';
+import { SuggetionComponent } from './components/suggetion/suggetion.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { TaggedComponent } from './components/tagged/tagged.component';
     FollowingComponent,
     PostsComponent,
     SavedComponent,
-    TaggedComponent
+    TaggedComponent,
+    StoryComponent,
+    SuggetionComponent
 
   ],
   imports: [
