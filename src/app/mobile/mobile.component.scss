@@ -1,9 +1,11 @@
 *{
     width: 100%;
+    background-color: white;
 }
 mobile-header{
     top: 0;
     height: 44px;
+    z-index: 1000;
     position: fixed;
 }
 main{
@@ -14,5 +16,6 @@ main{
 mobile-footer{
     bottom: 0;
     height: 44px;
+    z-index: 1000;
     position: fixed;
 }
