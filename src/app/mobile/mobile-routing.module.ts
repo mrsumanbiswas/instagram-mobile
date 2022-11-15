@@ -70,7 +70,7 @@ const routes: Routes = [
     ]
   },
   {
-    path:'',
+    path:'**',
     redirectTo:'home',
     pathMatch:'full'
   }

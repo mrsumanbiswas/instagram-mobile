@@ -4,13 +4,13 @@ import { MobileComponent } from './mobile/mobile.component';
 
 const routes: Routes = [
 {
-  path:'m',
+  path:'',
   component:MobileComponent,
   loadChildren:()=>import('./mobile/mobile.module').then(m =>m.MobileModule),
 },
 {
   path:'**',
-  redirectTo:'/m',
+  redirectTo:'',
   pathMatch:'full',
 }
 ];
