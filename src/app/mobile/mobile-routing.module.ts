@@ -6,6 +6,12 @@ import { ReelsComponent } from './pages/reels/reels.component';
 import { InboxComponent } from './pages/inbox/inbox.component';
 import { DirectComponent } from './pages/direct/direct.component';
 import { UserComponent } from './pages/user/user.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { FeedComponent } from './components/feed/feed.component';
+import { SavedComponent } from './components/saved/saved.component';
+import { TaggedComponent } from './components/tagged/tagged.component';
+import { FollowersComponent } from './components/followers/followers.component';
+import { FollowingComponent } from './components/following/following.component';
 
 const routes: Routes = [
   {
@@ -30,7 +36,37 @@ const routes: Routes = [
   },
   {
     path:':user',
-    component:UserComponent
+    component:UserComponent,
+    children:[
+      {
+        path:'',
+        component:PostsComponent
+      },
+      {
+        path:'feed',
+        component:FeedComponent
+      },
+      {
+        path:'saved',
+        component:SavedComponent
+      },
+      {
+        path:'tagged',
+        component:TaggedComponent
+      },
+      {
+        path:'followers',
+        component:FollowersComponent
+      },
+      {
+        path:'following',
+        component:FollowingComponent
+      },
+      {
+        path:'**',
+        redirectTo:''
+      }
+    ]
   },
   
   {
