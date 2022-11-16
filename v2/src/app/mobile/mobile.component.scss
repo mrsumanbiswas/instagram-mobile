@@ -1,0 +1,14 @@
+main{
+    height: 100%;
+    padding-top:44px;
+    padding-bottom: 3rem;
+    background: transparent;
+}
+mobile-footer{
+    width: 100%;
+    bottom: 0;
+    height: 44px;
+    z-index: 1000;
+    position: fixed;
+    background-color: white;
+}
