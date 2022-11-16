@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MobileRoutingModule } from './mobile-routing.module';
 import { MobileComponent } from './mobile.component';
-import { HeaderComponent } from "./components/layout/header/header.component";
-import { FooterComponent } from "./components/layout/footer/footer.component";
+import { FooterComponent } from "./components/footer/footer.component";
 import { UserComponent } from './pages/user/user.component';
 import { DirectComponent } from './pages/direct/direct.component';
 import { ExploreComponent } from './pages/explore/explore.component';
@@ -22,7 +21,6 @@ import { SuggetionComponent } from './components/suggetion/suggetion.component';
 @NgModule({
   declarations: [
     MobileComponent,
-    HeaderComponent,
     FooterComponent,
     UserComponent,
     DirectComponent,
