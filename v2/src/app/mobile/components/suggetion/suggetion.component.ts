@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  selector:'mobile-suggetion',
   templateUrl: './suggetion.component.html',
   styleUrls: ['./suggetion.component.scss']
 })
