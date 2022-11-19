@@ -1,4 +1,4 @@
-nav{
+nav {
     height: 100%;
     width: 100%;
     display: flex;
@@ -6,19 +6,5 @@ nav{
     flex-direction: row;
     box-sizing: border-box;
     justify-content: space-evenly;
-    border-top: 1px solid  rgba(142, 142, 142, 0.5);
-    
-    button{
-        display: flex;
-        margin: auto;
-        border: none;
-        outline: none;
-        background-color: transparent;
-    }
-}
-
-#user-img{
-    border-radius: 24px;
-    border: 1px solid black;
-    padding: 2px;
+    border-top: 1px solid rgba(142, 142, 142, 0.5);
 }
