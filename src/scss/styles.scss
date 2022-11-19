@@ -1,5 +1,4 @@
 button {
-
     display: flex;
     margin: auto;
     border: none;
@@ -11,19 +10,20 @@ button {
     justify-content: center;
     touch-action: manipulation;
     background-color: transparent;
-
 }
 
-button >svg{
+button>svg {
     padding: 2px;
     margin: auto;
     display: flex;
+    width: inherit;
+    height: inherit;
     box-sizing: border-box;
     justify-content: center;
     background-color: transparent;
 }
 
-button >img{
+button>img {
     padding: 2px;
     display: flex;
     border-radius: 24px;

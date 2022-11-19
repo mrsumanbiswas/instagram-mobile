@@ -12,20 +12,13 @@ nav {
     border-bottom: 1px solid rgba(142, 142, 142, 0.5);
     justify-content: space-between;
 
-    * {
+    >* {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    button {
-        border: none;
-        outline: none;
-        background-color: transparent;
-
-        svg {
-            margin: auto;
-            padding: 8px;
-        }
+    svg {
+        padding: 8px;
     }
 }

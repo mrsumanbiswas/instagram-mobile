@@ -11,6 +11,11 @@ nav {
     background-color: white;
     border-bottom: 1px solid rgba(142, 142, 142, 0.5);
 
+    svg{
+        height: auto;
+        width: auto;
+    }
+    
     button {
         padding: 4px;
         width: 10%;
@@ -19,7 +24,7 @@ nav {
 
 #username {
     width: 80%;
-
+    max-height: 44px;
     * {
         margin: 8px 5px;
     }
