@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    img {
+        width: 30%;
+        margin: 1.5vw;
+        background-color: transparent;
+    }
+}
